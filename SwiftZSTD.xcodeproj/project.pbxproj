@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B426616252EAD65007D7BDB /* zstd_compress_superblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B426615252EAD65007D7BDB /* zstd_compress_superblock.h */; };
+		1B426617252EAD65007D7BDB /* zstd_compress_superblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B426615252EAD65007D7BDB /* zstd_compress_superblock.h */; };
+		1B42661E252EAD6E007D7BDB /* zstd_compress_superblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B42661D252EAD6E007D7BDB /* zstd_compress_superblock.c */; };
+		1B42661F252EAD6E007D7BDB /* zstd_compress_superblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B42661D252EAD6E007D7BDB /* zstd_compress_superblock.c */; };
 		B60EDE051E0A307A00F2713B /* DictionaryZSTDProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EDE011E0A307A00F2713B /* DictionaryZSTDProcessor.swift */; };
 		B60EDE061E0A307A00F2713B /* DictionaryZSTDProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EDE011E0A307A00F2713B /* DictionaryZSTDProcessor.swift */; };
 		B60EDE071E0A307A00F2713B /* ZSTDDictionaryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EDE021E0A307A00F2713B /* ZSTDDictionaryBuilder.swift */; };
@@ -196,6 +200,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B426615252EAD65007D7BDB /* zstd_compress_superblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_compress_superblock.h; sourceTree = "<group>"; };
+		1B42661D252EAD6E007D7BDB /* zstd_compress_superblock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_compress_superblock.c; sourceTree = "<group>"; };
 		B60EDDA71E0A2C2400F2713B /* SwiftZSTD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftZSTD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60EDDAB1E0A2C2400F2713B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B60EDDB51E0A2CF100F2713B /* SwiftZSTD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftZSTD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -442,6 +448,8 @@
 				B68A38A223B1C42C0097BCB7 /* zstd_compress_internal.h */,
 				B68A389E23B1C42C0097BCB7 /* zstd_compress_literals.c */,
 				B68A38A023B1C42C0097BCB7 /* zstd_compress_literals.h */,
+				1B42661D252EAD6E007D7BDB /* zstd_compress_superblock.c */,
+				1B426615252EAD65007D7BDB /* zstd_compress_superblock.h */,
 				B68A38AF23B1C42E0097BCB7 /* zstd_compress_sequences.c */,
 				B68A389F23B1C42C0097BCB7 /* zstd_compress_sequences.h */,
 				B68A38AA23B1C42D0097BCB7 /* zstd_cwksp.h */,
@@ -563,6 +571,7 @@
 				B68A38DD23B1C44D0097BCB7 /* zstd_decompress_internal.h in Headers */,
 				B6E8FDF31F4FC47D007875AC /* compiler.h in Headers */,
 				B68A38BC23B1C42E0097BCB7 /* zstd_ldm.h in Headers */,
+				1B426616252EAD65007D7BDB /* zstd_compress_superblock.h in Headers */,
 				B68A38B423B1C42E0097BCB7 /* zstd_compress_sequences.h in Headers */,
 				B6E8FE011F4FCAB3007875AC /* threading.h in Headers */,
 				B60EDE5E1E0A30B000F2713B /* zdict.h in Headers */,
@@ -603,6 +612,7 @@
 				B68A38CF23B1C42E0097BCB7 /* zstd_opt.h in Headers */,
 				B68A38CD23B1C42E0097BCB7 /* zstd_lazy.h in Headers */,
 				B68A389C23B1C3EA0097BCB7 /* zstd_errors.h in Headers */,
+				1B426617252EAD65007D7BDB /* zstd_compress_superblock.h in Headers */,
 				B68A38EB23B1C45F0097BCB7 /* divsufsort.h in Headers */,
 				B68A38E223B1C44D0097BCB7 /* zstd_decompress_block.h in Headers */,
 				B68A38CB23B1C42E0097BCB7 /* zstd_cwksp.h in Headers */,
@@ -857,6 +867,7 @@
 				B60EDE2E1E0A30B000F2713B /* entropy_common.c in Sources */,
 				B60EDE091E0A307A00F2713B /* ZSTDProcessor.swift in Sources */,
 				B68A389223B1C2CB0097BCB7 /* threading.c in Sources */,
+				1B42661E252EAD6E007D7BDB /* zstd_compress_superblock.c in Sources */,
 				B68A38C623B1C42E0097BCB7 /* zstd_ldm.c in Sources */,
 				B60EDE0B1E0A307A00F2713B /* ZSTDProcessorCommon.swift in Sources */,
 				B6E8FDFF1F4FCA81007875AC /* cover.c in Sources */,
@@ -898,6 +909,7 @@
 				B60EDE2F1E0A30B000F2713B /* entropy_common.c in Sources */,
 				B60EDE0A1E0A307A00F2713B /* ZSTDProcessor.swift in Sources */,
 				B68A389323B1C2CB0097BCB7 /* threading.c in Sources */,
+				1B42661F252EAD6E007D7BDB /* zstd_compress_superblock.c in Sources */,
 				B68A38C723B1C42E0097BCB7 /* zstd_ldm.c in Sources */,
 				B6E8FE051F4FCD68007875AC /* cover.c in Sources */,
 				B60EDE081E0A307A00F2713B /* ZSTDDictionaryBuilder.swift in Sources */,
